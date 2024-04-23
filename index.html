@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Generator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>List Generator</h1>
+
+    <select id="storeName">
+      <option>Select Stores</option>
+      <option>Adyar Ananda Bavan</option>
+      <option>Ahmedia Highway</option>
+      <option>Ashok Bhavan</option>
+      <option>Arshad Beef Briyani</option>
+      <option>Al Zuhan Kitchen</option>
+      <option>Afroze Fruits</option>
+      <option>Babu Hotel</option>
+      <option>Basha Sweets</option>
+      <option>Bakers Corner</option>
+      <option>Bismi Fast Food</option>
+      <option>Big Bite</option>
+      <option>Bismillah Fresh</option>
+      <option>Container Cafe</option>
+      <option>Chakkra's Pizza</option>
+      <option>Darbar Hotel</option>
+      <option>Hotel Saravana Bavan</option>
+      <option>Hotel Grand Sangeetha</option>
+      <option>Imperial Sweets</option>
+      <option>JFC Restaurant</option>
+      <option>Khaja Restaurant</option>
+      <option>Lassi Shop</option>
+      <option>Lassi Town</option>
+      <option>Rolls Rise Signature</option>
+      <option>The Food Cultre</option>
+      <option>Taj Hotel</option>
+      <option>Modern Cafe</option>
+      <option>Marhaba Hotel</option>
+      <option>Nazeer Sweets</option>
+      <option>Nourish Hub</option>
+      <option>Mr & Mrs Foody</option>
+      <option>Scooter Barbeque</option>
+      <option>Siv Savariya Ice</option>
+      <option>Sufiyan Fast food</option>
+      <option>Saheliyan Souq</option>
+      <option>SaiSangeet</option>
+      <option>Sri Sai Bavan</option>
+      <option>Suren's Hotel</option>
+    </select>
+    <input type="number" id="storeCount" placeholder="Enter Counts" required/>
+    <button id="add-btn">Add to List</button>
+
+    <input placeholder="Enter Order ID" id="orderID" type="text" required/>
+    <input placeholder="Enter Price" id="price" type="number" required/>
+    <button id="addID-btn">Add Order ID</button>
+
+    <button id="reset">Reset</button>
+
+    <div id="list-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
